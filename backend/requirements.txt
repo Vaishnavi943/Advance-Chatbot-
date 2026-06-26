@@ -1,0 +1,33 @@
+# Core Framework & Orchestration
+langgraph>=0.2.59
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+
+# LLM Providers & Embeddings
+langchain-mistralai>=0.2.0
+langchain-google-genai>=2.0.0
+google-genai>=0.1.0
+
+# Vector Databases & Retrieval (Advanced RAG)
+chromadb>=0.6.0
+pinecone[grpc]>=5.4.0
+langchain-pinecone>=0.2.0
+pypdf>=5.0.0
+tiktoken>=0.8.0
+
+# Persistence & Memory (Production Postgres Checkpointer)
+langgraph-checkpoint-postgres>=2.0.0
+psycopg[binary]>=3.2.0
+
+# Production API & Server
+fastapi>=0.115.0
+uvicorn[standard]>=0.35.0
+pydantic>=2.10.0
+
+# Monitoring & Observability
+langsmith>=0.3.0
+
+# Utilities & Resilience (Retry Logic)
+tenacity>=9.0.0
+python-dotenv>=1.0.1
